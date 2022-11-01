@@ -20,12 +20,12 @@ LEFT_PADDING = 5
 NAME_PADDING = 20
 DETAIL_SPACING = 10
 
-DEFAULT_TEXT = """mustelid inc
-H. Badger
-RP2040
-2MB Flash
-E ink
-296x128px"""
+DEFAULT_TEXT = """GitHub Universe 2022
+Mona
+Octocat,
+GitHub
+@mona
+"""
 
 BADGE_IMAGE = bytearray(int(IMAGE_WIDTH * HEIGHT / 8))
 
