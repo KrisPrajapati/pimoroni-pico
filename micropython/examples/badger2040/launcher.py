@@ -31,7 +31,7 @@ state = {
     "page": 0,
     "font_size": 1,
     "inverted": False,
-    "running": "badge"
+    "running": "launcher"
 }
 
 badger_os.state_load("launcher", state)
