@@ -25,7 +25,7 @@ CURRENT_PAGE = 0 # 0=Badge; 1=contribution graph
 
 # Load QR Code image
 try:
-    open("qrcode.bin","rb").readinto(QRCODE)
+    open("gh_qrcode.bin","rb").readinto(QRCODE)
 except OSError:
     try:
         import gh_qrcode
