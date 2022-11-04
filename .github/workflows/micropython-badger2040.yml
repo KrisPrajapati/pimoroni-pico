@@ -60,15 +60,6 @@ jobs:
     runs-on: ubuntu-20.04
 
     steps:
-    - name: Compiler Cache
-      uses: actions/cache@v2
-      with:
-        path: /home/runner/.ccache
-        key: ccache-micropython-badger2040-${{github.ref}}-${{github.sha}}
-        restore-keys: |
-          ccache-micropython-badger2040-${{github.ref}}
-          ccache-micropython-badger2040-
-  
     - name: Workspace Cache
       uses: actions/cache@v2
       with:
