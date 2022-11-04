@@ -79,7 +79,7 @@ for filename in contribution_files:
                     f.flush()
                     time.sleep(0.1)
                 del contribution_page_2
-        except ImportError
+        except ImportError:
             pass
     page_title = file.readline()
     page_subtitle = file.readline()
