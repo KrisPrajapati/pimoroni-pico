@@ -38,8 +38,12 @@ endfunction()
 convert_image(usermod_badger2040 badge_image)
 convert_image(usermod_badger2040 badgerpunk)
 convert_image(usermod_badger2040 launchericons)
+convert_image(usermod_badger2040 gh_qrcode)
 
 convert_raw(usermod_badger2040 289-0-wind-in-the-willows-abridged.txt witw)
+convert_raw(usermod_badger2040 contribution_page_1.txt contribution_page_1)
+convert_raw(usermod_badger2040 contribution_page_2.txt contribution_page_2)
+
 
 copy_module(usermod_badger2040 ${CMAKE_CURRENT_LIST_DIR}/assets/boot.py boot)
 copy_module(usermod_badger2040 ${CMAKE_CURRENT_LIST_DIR}/launcher.py _launcher)
