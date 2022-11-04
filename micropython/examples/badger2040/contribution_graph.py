@@ -1,3 +1,4 @@
+import time
 import badger2040
 import badger_os
 
@@ -72,6 +73,7 @@ for filename in contribution_files:
                     f.flush()
                     time.sleep(0.1)
                 del contribution_page_1
+                file = open(filename, "r")
             elif filename == "contribution_page_2.txt":
                 import contribution_page_2
                 with open(filename, "wb") as f:
@@ -79,6 +81,7 @@ for filename in contribution_files:
                     f.flush()
                     time.sleep(0.1)
                 del contribution_page_2
+                file = open(filename, "r")
         except ImportError:
             pass
     page_title = file.readline()
