@@ -80,7 +80,7 @@ class ByteWriter(object):
 
 def convert_image(img):
     if options.qr_resize:
-        img = img.resize((105, 105))
+        img = img.resize((112, 112))
     elif options.resize: 
         img = img.resize((296, 128))  # resize
     try:
